@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
     int S;
-    int P[300];
-    int max[300];
     scanf("%d",&S);
+    int P[S];
+    int max[S];
     for(int i=0;i<S;i++){scanf("%d",&P[i]);max[i]=0;}
     max[0]=P[0];//1
     if(S<=1){printf("%d",max[0]);return 0;}
